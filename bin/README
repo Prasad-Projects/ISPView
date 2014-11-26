@@ -1,7 +1,17 @@
 ISPView aims to make useful inferences about the topology of autonomous systems by analyzing BGP path advertisements known to IXPs.
-Double - click on the executable JAR file to launch the application. The database file 'COP.h2.db' should be in the same directory as
-the JAR. 
-The application has a tabbed panel:
+
+Execution Instructions:
+1. Launching
+While executing in linux environments, you can run the ISPVIew JAR by executing the following 
+	java -jar ISPView.jar
+To run the updates JAR, execute the following - 
+	java -jar Updates.jar 
+In Windows, double-clicking the corresponding executable JAR file will launch the application.
+2. Database 
+The database file 'COP.h2.db' should be in the same directory as the JAR. 
+
+A guide to using the UI - 
+The application has a tabbed panel with three tabs:
 1. ISP Graphs (Run a Query Panel)
 	This panel lets you visualize paths for a ISP in a region by analyzing sent/received BGP Path advertisements. You can interact with the 
 	graph and save a copy.
@@ -13,8 +23,3 @@ The application has a tabbed panel:
 	Autonomous System and IP - networks.
 	
 You can save any of the graphs by clicking on the Capture button. A screenshot of the graphs is saved in the same directory as the JAR file.
-
-NB: While executing in linux environments, you can run the ISPVIew JAR by executing the following - 
-java -jar ISPView.jar
-To run the updates JAR, execute the following - 
-java -jar Updates.jar
