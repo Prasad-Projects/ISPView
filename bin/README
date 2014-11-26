@@ -13,3 +13,8 @@ The application has a tabbed panel:
 	Autonomous System and IP - networks.
 	
 You can save any of the graphs by clicking on the Capture button. A screenshot of the graphs is saved in the same directory as the JAR file.
+
+NB: While executing in linux environments, you can run the ISPVIew JAR by executing the following - 
+java -jar ISPView.jar
+To run the updates JAR, execute the following - 
+java -jar Updates.jar
