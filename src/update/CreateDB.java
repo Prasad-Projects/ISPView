@@ -64,7 +64,7 @@ public class CreateDB
 			String userHome = System.getProperty("user.dir");		
 			if(!setPath)
 			{
-				System.setProperty("user.dir", userHome+"/NIXIProj");
+				System.setProperty("user.dir", userHome+"/COP");
 				userHome = System.getProperty("user.dir");
 				setPath = true;
 			}
@@ -144,7 +144,7 @@ public class CreateDB
 		String userHome = System.getProperty("user.dir");	
 		if(!setPath)
 		{
-			System.setProperty("user.dir", userHome+"/NIXIProj");
+			System.setProperty("user.dir", userHome+"/COP");
 			userHome = System.getProperty("user.dir");
 			setPath = true;
 		}	
@@ -189,7 +189,7 @@ public class CreateDB
 		String userHome = System.getProperty("user.dir");		
 		if(!setPath)
 		{
-			System.setProperty("user.dir", userHome+"/NIXIProj");
+			System.setProperty("user.dir", userHome+"/COP");
 			userHome = System.getProperty("user.dir");
 			setPath = true;
 		}
