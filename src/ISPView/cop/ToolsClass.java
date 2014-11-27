@@ -286,11 +286,11 @@ public class ToolsClass
 
         try
         {
-        	stat.execute("create table PathDB(version int, id int primary key auto_increment, Source varchar(255), Region varchar(255), ASName varchar(255), IsSent Boolean, Network varchar(255), Hops int," +
-        		"Hop1 varchar(255), Hop2 varchar(255), Hop3 varchar(255), Hop4 varchar(255), Hop5 varchar(255), " +
-        		"Hop6 varchar(255), Hop7 varchar(255), Hop8 varchar(255), Hop9 varchar(255), Hop10 varchar(255), " +
-        		"Hop11 varchar(255), Hop12 varchar(255), Hop13 varchar(255), Hop14 varchar(255), Hop15 varchar(255), " +
-        		"Hop16 varchar(255), Hop17 varchar(255), Hop18 varchar(255), Hop19 varchar(255), Hop20 varchar(255), )");
+        	stat.execute("create table PathDB2(version int, id int primary key auto_increment, Source varchar(255), Region varchar(255),ASNum varchar(255), ASName varchar(255), IsSent Boolean, Network varchar(255), Hops int," +
+			"Hop1 varchar(255), Hop2 varchar(255), Hop3 varchar(255), Hop4 varchar(255), Hop5 varchar(255), " +
+			"Hop6 varchar(255), Hop7 varchar(255), Hop8 varchar(255), Hop9 varchar(255), Hop10 varchar(255), " +
+			"Hop11 varchar(255), Hop12 varchar(255), Hop13 varchar(255), Hop14 varchar(255), Hop15 varchar(255), " +
+			"Hop16 varchar(255), Hop17 varchar(255), Hop18 varchar(255), Hop19 varchar(255), Hop20 varchar(255), )");
         }
         catch(Exception e)
         {
