@@ -1,0 +1,2 @@
+This directory contains the compiled .class file for updates
+To recompile, run the bash script in src folder. The runnable JAR also gets updated from the script.
