@@ -1,0 +1,2 @@
+This directory contains the compiled .class files for the main application
+To recompile, run the bash script in src folder (install-ISPView.bash). The runnable JAR also gets updated from the script.
